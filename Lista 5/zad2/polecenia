@@ -1,0 +1,4 @@
+SELECT * FROM BankTransfer_pendingtransfer
+
+<script>window.addEventListener('load', function(){document.getElementsByTagName("form")[0].submit()})</script>
+

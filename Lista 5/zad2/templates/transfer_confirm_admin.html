@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Pending transfers{% endblock %}
+
+{% block content %}
+    <h2>Pending transfers</h2>
+    <form id="id-1" method="post">
+        <table>
+            <tr>
+                <th>Receiver</th>
+                <th>Title</th>
+                <th>Amount</th>
+            </tr>
+            {% for t in transfers %}
+                <tr>
+                    <td>{{ t.receiver }}</td>
+                    <td>{{ t.title|safe }}</td>
+                    <td>{{ t.amount }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        <button type="submit">Submit</button>
+    </form>
+
+{% endblock %}

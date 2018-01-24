@@ -1,0 +1,40 @@
+HTTP/1.1 200 OK
+Date: Tue, 28 Nov 2017 08:45:00 GMT
+Server: WSGIServer/0.1 Python/2.7.12
+Content-Length: 863
+Expires: Tue, 28 Nov 2017 08:45:00 GMT
+Vary: Cookie
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Set-Cookie: csrftoken=HB4ySAyC9FgpSJroiFPsjfdw8u4LizGTes9ptm03wA4sZbUBvg7X2Mvr7tp3QHJ5; expires=Tue, 27-Nov-2018 08:45:00 GMT; Max-Age=31449600; Path=/
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+</head>
+<body>
+  <header>
+    <h1>Bank</h1>
+    
+      <a href="/login/">login</a>
+    
+  </header>
+  <hr>
+  <main>
+    
+  <h2>Login</h2>
+  <form method="post">
+    <input type='hidden' name='csrfmiddlewaretoken' value='1FTrheonZQgVDj857mlesbyvUxqcf5HRywYiS0QOmL4YKLBikXDJbIQqTwLuNdK3' />
+    <ul class="errorlist nonfield"><li>Please enter a correct username and password. Note that both fields may be case-sensitive.</li></ul>
+<p><label for="id_username">Username:</label> <input type="text" name="username" value="Smith" autofocus required id="id_username" maxlength="254" /></p>
+<p><label for="id_password">Password:</label> <input type="password" name="password" required id="id_password" /></p>
+    <button type="submit">Login</button>
+  </form>
+
+  </main>
+  <hr>
+</body>
+</html>

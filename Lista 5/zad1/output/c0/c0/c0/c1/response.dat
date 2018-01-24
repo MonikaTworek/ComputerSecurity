@@ -1,0 +1,10 @@
+HTTP/1.1 302 Found
+Date: Tue, 28 Nov 2017 03:16:28 GMT
+Server: WSGIServer/0.1 Python/2.7.12
+Content-Length: 0
+Expires: Tue, 28 Nov 2017 03:16:28 GMT
+Vary: Cookie
+Location: /admin/login/?next=/admin/auth/user/
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8

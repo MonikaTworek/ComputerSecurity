@@ -1,0 +1,6 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 28 Nov 2017 03:16:28 GMT
+Server: WSGIServer/0.1 Python/2.7.12
+Content-Length: 0
+Content-Type: text/html; charset=utf-8
+Location: /admin/auth/user/sfi9876/

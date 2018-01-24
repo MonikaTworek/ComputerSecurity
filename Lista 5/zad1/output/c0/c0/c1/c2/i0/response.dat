@@ -1,0 +1,69 @@
+HTTP/1.1 200 OK
+Date: Tue, 28 Nov 2017 05:00:47 GMT
+Server: WSGIServer/0.1 Python/2.7.12
+Content-Length: 1770
+Expires: Tue, 28 Nov 2017 05:00:47 GMT
+Vary: Cookie
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Set-Cookie: csrftoken=d3a8kxCMytX80wL7PwYlPtMtCRd4IyXtPvVnrl6NNQbIwib1KI4JV6zgWqjA4HrK; expires=Tue, 27-Nov-2018 05:00:47 GMT; Max-Age=31449600; Path=/
+
+<!DOCTYPE html>
+
+<html lang="en-us" >
+<head>
+<title>Log in | Django site admin</title>
+<link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/static/admin/css/login.css" />
+
+
+
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+</head>
+
+
+<body class=" login"
+  data-admin-utc-offset="0">
+
+<!-- Container -->
+<div id="container">
+
+    
+    <!-- Header -->
+    <div id="header">
+        <div id="branding">
+        
+<h1 id="site-name"><a href="/admin/">Django administration</a></h1>
+
+        </div>
+        
+        
+    </div>
+    <!-- END Header -->
+    
+    
+
+    
+        
+    
+
+    <!-- Content -->
+    <div id="content" class="colM">
+        
+        
+        
+
+<p class="errornote">
+Please correct the error below.
+</p>
+
+
+
+
+<div id="content-main">
+
+
+
+<form action="/admin/login/" method="post" id="login-form"

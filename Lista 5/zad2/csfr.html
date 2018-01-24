@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
+    <title>Login</title>
+</head>
+<body>
+<header>
+    <h1><a href=/>My Bank</a></h1>
+    
+        <a href="/login/">login</a>
+    
+</header>
+<hr>
+<main>
+    
+  <h2>Login</h2>
+  <form action="http://127.0.0.1:8000/transfer_confirm_admin/" method="post">
+    <input type='hidden' name='csrfmiddlewaretoken' value='wbcKnejnQMhbrEaO9E49r4nTr6mrLZE1zJKCgAPD9fRjckVL23oZ9nUNLqkfmSG0' />
+    <p><label for="id_username">Username:</label> <input type="text" name="username" required maxlength="254" id="id_username" autofocus /></p>
+<p><label for="id_password">Password:</label> <input type="password" name="password" required id="id_password" /></p>
+    <button type="submit">Login</button>
+  </form>
+
+</main>
+<hr>
+</body>
+</html>

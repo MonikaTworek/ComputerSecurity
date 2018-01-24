@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Date: Tue, 28 Nov 2017 00:13:04 GMT
+Server: WSGIServer/0.1 Python/2.7.12
+Content-Length: 358
+Expires: Tue, 28 Nov 2017 00:13:04 GMT
+Vary: Cookie
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>We wait for You!</title>
+</head>
+<body>
+  <header>
+    <h1>Bank</h1>
+    
+      <a href="/login/">login</a>
+    
+  </header>
+  <hr>
+  <main>
+    
+  <h2>Logged out</h2>
+  <p>You have been successfully logged out.</p>
+  <p><a href="/login/">Log in</a> again.</p>
+
+  </main>
+  <hr>
+</body>
+</html>V

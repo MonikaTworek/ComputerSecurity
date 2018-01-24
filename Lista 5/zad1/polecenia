@@ -1,0 +1,2 @@
+touch new_dict.wl
+skipfish -o output -A mona:droga123 -S complete.wl -W new_dict.wl http://127.0.0.1:8000/

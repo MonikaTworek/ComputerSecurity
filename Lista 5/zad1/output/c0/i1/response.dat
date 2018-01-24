@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Date: Mon, 27 Nov 2017 23:08:17 GMT
+Server: WSGIServer/0.1 Python/2.7.12
+Vary: Cookie
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+Content-Length: 256
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login</title>
+</head>
+<body>
+  <header>
+    <h1>Bank</h1>
+    
+      <a href="/login/">login</a>
+    
+  </header>
+  <hr>
+  <main>
+    
+    <h2>Home</h2>
+
+    
+
+  </main>
+  <hr>
+</body>
+</html>
