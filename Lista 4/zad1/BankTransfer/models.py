@@ -11,11 +11,11 @@ class PendingTransfer(models.Model):
     receiver = models.CharField(validators=[account_regex], null=False, max_length=26)
     title = models.CharField(max_length=60, blank=False, null=False)
     amount = models.FloatField()
-    user = models.ForeignKey(User, editable=False)
+    user = models.ForeignKey(User, on_delete=models.PROTECT, editable=False)
 
 
 class Transfer(models.Model):
     receiver = models.CharField(null=False, max_length=26)
     title = models.CharField(max_length=60, blank=False, null=False)
     amount = models.FloatField()
-    user = models.ForeignKey(User, editable=False)
+    user = models.ForeignKey(User, on_delete=models.PROTECT, editable=False)

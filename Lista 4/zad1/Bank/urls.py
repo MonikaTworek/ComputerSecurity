@@ -23,8 +23,8 @@ from BankTransfer.views import create_transfer_view, create_transfer_confirm_vie
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', TemplateView.as_view(template_name='home.html'), name='home'),
-    url(r'^login/$', auth_views.login, {'template_name': 'login.html'}, name='login'),
-    url(r'^logout/$', auth_views.logout, {'template_name': 'logged_out.html'}, name='logout'),
+    url(r'^login/$', auth_views.LoginView.as_view(template_name= 'login.html'), name='login'),
+    url(r'^logout/$', auth_views.LoginView.as_view(template_name= 'logged_out.html'), name='logout'),
     url(r'^transfer/$', create_transfer_view,  name='transfer'),
     url(r'^transfer_confirm/$', create_transfer_confirm_view,  name='transfer_confirm'),
     url(r'^history/$', create_history_view, name ='history')
